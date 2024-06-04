@@ -1,0 +1,8 @@
+{
+  "plugins": ["simple-import-sort"],
+  "extends": ["next/core-web-vitals", "@rocketseat/eslint-config/next"],
+  "rules":{
+    "simple-import-sort/imports": "error",
+    "cameocase": "off"
+  }
+}
